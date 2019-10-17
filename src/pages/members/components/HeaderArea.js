@@ -3,6 +3,7 @@ import axios from "axios";
 
 const HeaderArea = () => {
     const styleDiv = {
+        marginTop: `${80}px`,
         height: "60vh",
         minHeight: "400px",
         paddingLeft: "10%",
@@ -48,7 +49,7 @@ const HeaderArea = () => {
     return (
         <div style={styleDiv}>
             <div>
-                <h1 style={styleH1}>Olá, Torcida da Loucura!</h1>
+                <h1 style={styleH1}>Membros</h1>
                 <h2 style={styleH2}>
                     <i>
                         Eu sou o seu álbum de figurinhas do Bando. O meu papel é registrar

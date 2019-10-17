@@ -4,7 +4,7 @@ import axios from 'axios'
 import ReactLoading from 'react-loading'
 
 const StickerArea = () => {
-    const url = "http://127.0.0.1:3000"
+    const url = "http://127.0.0.1:3000/"
     const [list, setList] = useState([])
     const [loadingStickers, setLoadingStickers] = useState(true)
 

@@ -22,7 +22,7 @@ const NavBar = () => {
 
   return (
     <div>
-      <Navbar color="dark" expand="md" dark fixed="top" style={{paddingLeft: "6%", paddingRight: "6%", minHeight: `${10}vh` }}>
+      <Navbar color="dark" expand="md" dark fixed="top" style={{paddingLeft: "6%", paddingRight: "6%", minHeight: `${80}px` }}>
         <NavbarBrand href="/"><img src={logo} alt="" width={120} /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

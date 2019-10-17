@@ -4,6 +4,7 @@ import ButtonBando from "../../../components/ButtonBando";
 
 const HeaderArea = () => {
   const styleDiv = {
+    marginTop: `${70}px`,
     height: "60vh",
     minHeight: "400px",
     paddingLeft: "10%",
@@ -79,7 +80,7 @@ const HeaderArea = () => {
               };
               console.log(typeof params.url);
               axios
-                .post(`http://127.0.0.1:3000/`, params)
+                .post(`http://api.bandoeach.com/`, params)
                 .then(res => console.log(res));
             }}
           >
